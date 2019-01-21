@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$";
+var prefix = "!";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -15,7 +15,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$bc | By !󠂪 󠂪󠂪󠂪A7MED .♛#1111`,"http://twitch.tv/S-F")
+client.user.setGame(`!bc  By !󠂪 󠂪󠂪󠂪A7MED .♛#1111`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
